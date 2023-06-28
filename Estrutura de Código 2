@@ -1,0 +1,41 @@
+class estoque_pneus:
+    def __init__(self, marca, preço, aro):
+        self.marca = marca
+        self.preço = preço
+        self.aro = aro
+pneu_01 = estoque_pneus('Michelin', 320, 'Aro 18')
+pneu_02 = estoque_pneus('Continental', 440, 'Aro 20')
+
+def contando_estoque(self):
+    print('Contando o estoque...')
+
+class serviços_realizados:
+    def __init__(self, quantidade, serviço, valor):
+        self.quantidade = quantidade
+        self.serviço = serviço
+        self.valor = valor
+serviço_01 = serviços_realizados(2, 'alinhamento e cambagem', 120)
+serviço_02 = serviços_realizados(1, 'troca de pneu', 5)
+
+def contando_serviços(self):
+    print('Contando os serviços realizados...')
+
+faturamento = serviços_realizados
+
+def contando_faturamento(self):
+    print('Contando o faturamento...')
+
+resposta_menu = input('Bem-vindo a Perfect. O que deseja realizar? [1] - Acompanhar estoque / [2] Consultar serviços realizados / [3] Consultar faturamento  ')
+if resposta_menu == '1':
+    print(pneu_01.marca, pneu_01.aro)
+    print(pneu_02.marca, pneu_02.aro)
+
+elif resposta_menu =='2':
+    print(serviço_01.quantidade, serviço_01.serviço)
+    print(serviço_02.quantidade, serviço_02.serviço)
+
+elif resposta_menu =='3':
+    print(serviço_01.valor + serviço_02.valor)
+
+else:
+    print('Escolha uma opção válida!')
