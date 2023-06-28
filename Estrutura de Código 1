@@ -1,0 +1,53 @@
+class PneuBridgestone:
+ def __init__(self, aro, valor, estoque):
+    self.aro = aro
+    self.valor = valor
+    self.quantidade = estoque
+
+class PneuGoodyear:
+ def __init__(self, aro, valor, estoque):
+    self.aro = aro
+    self.valor = valor
+    self.quantidade = estoque
+
+class PneuPirelli:
+ def __init__(self, aro, valor, estoque):
+    self.aro = aro
+    self.valor = valor
+    self.quantidade = estoque
+
+class PneuContinental:
+ def __init__(self, aro, valor, estoque):
+    self.aro = aro
+    self.valor = valor
+    self.quantidade = estoque
+
+class PneuDunlop:
+ def __init__(self, aro, valor, estoque):
+    self.aro = aro
+    self.valor = valor
+    self.quantidade = estoque
+
+class PneuYokohama:
+ def __init__(self, aro, valor, estoque):
+    self.aro = aro
+    self.valor = valor
+    self.quantidade = estoque
+
+class PneuHankook:
+ def __init__(self, aro, valor, estoque):
+    self.aro = aro
+    self.valor = valor
+    self.quantidade = estoque
+
+class PneuFirestone:
+ def __init__(self, aro, valor, estoque):
+    self.aro = aro
+    self.valor = valor
+    self.quantidade = estoque
+
+class PneuKumho:
+ def __init__(self, aro, valor, estoque):
+    self.aro = aro
+    self.valor = valor
+    self.quantidade = estoque
